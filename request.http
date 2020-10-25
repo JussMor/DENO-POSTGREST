@@ -1,0 +1,29 @@
+
+### obtener todos 
+GET   http://localhost:8080/users
+
+
+### obtener uno 
+GET   http://localhost:8080/users/3
+
+### ingresar uno 
+
+POST  http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "amigos",
+    "email": "diego@gmail.com"
+}
+
+
+### actualizar uno 
+PUT   http://localhost:8080/users/3
+Content-Type: application/json
+
+{
+    "name": "Janice",
+    "email": "janice@gmail.com"
+}
+### borrar uno 
+DELETE http://localhost:8080/users/3
